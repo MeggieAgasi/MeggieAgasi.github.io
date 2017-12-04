@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product view</title>
+     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Roboto:300,400,500,700" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-top-bar">
+            <div class="header-categories-wrapper">
+                <div class="header-bar-left"> currency: GBP  </div>
+                <div class="header-bar-right-1">empty</div>
+                <div class="header-bar-right-2">Sign In</div>
+                <div class="header-bar-right-3">Register</div>
+            </div>
+        </div>
+        <div class="second-bar"> 
+            <div class="second-bar-wrapper">
+                <div class="logo"> <img src="pics\logo.jpg" alt="logo"> </div>
+                <div class="menu">
+                    <ul class="nav-bar">
+                        <li style="color: #00c8c8">MENS</li>
+                        <li>WOMEN</li>
+                        <li >THE BRAND</li>
+                        <li >LOCAL STORES</li>
+                        <li>LOOK BOOK</li>
+                    </ul>   
+                </div>
+
+                <div class="search">  <input type="text" placeholder="search" >   </div>
+            </div>
+        </div>
+        <div class="intro"> <img src="pics\intro-product-view.jpg" alt="intro" id="intro-pic"> </div>
+    </header>
+
+    <main>
+        <div class="pg5-classic-sweatshirt"> <!--flex-->
+            <div class="div-sweatshirt-img"> <img src="pics\sweatshirt.jpg" alt="sweatshirt"> </div>
+            <div>
+                <p class="p-ave-classic-sweatshirt">AVE CLASSIC SWEATSHIRT</p>
+                <div class="review-div"> <!--flex-->
+                    <div class="stars"> <!--flex-->
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p class="amount-review">3 Review (3) |</p>
+                    <p class="add-review">Add a Review  </p>
+                    <p class="share">| Share:
+                         <i class="fa fa-facebook" aria-hidden="true"></i>
+                         <i class="fa fa-twitter" aria-hidden="true"></i>
+                         <i class="fa fa-google-plus" aria-hidden="true"></i>
+                         <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                         <i class="fa fa-instagram" aria-hidden="true"></i>
+                         <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    </p>
+                </div>
+                <div> <p class="price">£ <span style= "text-decoration: line-through">107</span> 89.99</p></div>
+                <p class="avial-code-tags">
+                    <strong> AVIALBOLITY: </strong> in stock <br> 
+                    <strong> PRODUCT CODE: </strong> #499577 <br>
+                    <strong> TAGS: </strong> <span class="tags"> Classic, Casual, V-neck, Loose </span>
+                </p>
+                <p class="descreption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A facilis <br>
+                    quod recusandae soluta ex dolore dolores eveniet dolor, <br>
+                    distinctio ratione quae provident? Eaque deleniti voluptatibus quam es.
+                </p>
+                <ul class="ul-pg-classicshirt"> <!--add bullet-->
+                    <li>Elasticated cuffs</li>
+                    <li>Casual fit</li>
+                    <li>100% cottun</li>
+                    <li>Free shipping with 4 days deleviry</li>
+                </ul>
+                <div class="color-size-qty"> <!--flex-->
+                    <p>COLOR <br><br>          
+                        <select class="select color">
+                            <option value="select color">select color</option>
+                            <option value="pink">pink</option>
+                            <option value="grey">grey</option>
+                        </select>
+                    </p>
+                    <p>SIZE <br><br>          
+                        <select class="select size">
+                            <option value="select size">select size</option>
+                            <option value="zero">0</option>
+                            <option value="one">1</option>
+                            <option value="two">2</option>
+                        </select>
+                    </p>                    
+                    <p>QTY <br><br>
+                         <input type="number" step="1" min="0" max="10" value="1"  size="4" pattern="[0-9]*" inputmode="numeric" >
+                    </p>
+                </div>
+                <div class="add_buttons"> <!--flex-->
+                    <div class="add-to-cart" > <i class="fa fa-shopping-cart" aria-hidden="true"></i> ADD TO CART</div>
+                    <div class="add-to-lookbook" > <i class="fa fa-heart-o" aria-hidden="true"></i>  ADD TO LOOKBOOK </div>
+                </div> 
+                <p class="add-to-compare"> <i class="fa fa-compress" aria-hidden="true"></i>  ADD TO COMPARE</p> 
+            </div>
+
+        </div>
+
+        <div class="div-sweatshirt-navbar"> 
+            <ul class="ul-sweatshirt-navbar"> <!--flex-->
+                <li>DESCRIPTION</li>
+                <li>VIDEOS</li>
+                <li>SIZE & SPECS</li>
+                <li>DELIVERY & RETURNS </li>
+                <li>REVIEWS</li>
+            </ul>
+        </div>
+        <p class="bottom-desc"> <strong>iure cumque nam nihil mollitia voluptatum illum, velit reiciendis neque!</strong> <br> <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eligendi
+            atque eos sapiente mollitia similique incidunt, <br> placeat autem, expedita asperiores enim sint earum
+            laboriosam, ex itaque quod, porro explicabo molestiae. Lorem ipsum dolor sit amet, <br>
+            consectetur adipisicing elit. Nulla qui aliquam blanditiis libero dolore. Rem minima molestias delectus <br>
+            voluptatem eligendi sed laudantium, ipsum similique mollitia. Eligendi unde accusantium, quis consectetur? <br> <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eligendi
+            atque eos sapiente mollitia similique incidunt, <br> placeat autem, expedita asperiores enim sint earum
+            laboriosam, ex itaque quod, porro explicabo molestiae. Lorem ipsum dolor sit amet, <br>
+            consectetur adipisicing elit. Nulla qui aliquam blanditiis libero dolore. Rem minima molestias delectus <br>
+            voluptatem eligendi sed laudantium, ipsum similique mollitia. Eligendi unde accusantium, quis consectetur
+        </p>
+
+    </main>
+
+<footer>
+    <div class="footer-wrapper">
+        <div class="footer-menu"> 
+            <ul>
+                <li>INFORMATION</li>
+                <li>The brand</li>
+                <li>Local stores</li>
+                <li>Customer service</li>
+                <li>Privace & cookies</li>
+                <li>Site map</li>
+            </ul>
+
+            <ul>
+                <li>WHY BUY FROM US</li>
+                <li>Shipping & returns</li>
+                <li>Secure shopping</li>
+                <li>Testimonials</li>
+                <li>Award winning</li>
+                <li>Ethical tradind</li>
+            </ul>
+
+            <ul>
+                <li>YOUR ACCOUNT</li>
+                <li>Sign in</li>
+                <li>Register</li>
+                <li>View cart</li>
+                <li>View your lookbook</li>
+                <li>Track an order</li>
+                <li>Update information</li>
+            </ul>
+
+            <ul>
+                <li>LOOKBOOK</li>
+                <li>Latest posts</li>
+                <li>Men's lookbook</li>
+                <li>Women's lookbook</li>
+                <li>Lookbooks RSS feed</li>
+                <li>View your lookbook</li>
+                <li>Delete your lookbook</li>
+            </ul>
+
+            <ul>
+                <li>CONTACT DETAILS</li>
+                <li>Head Office Avenue Fashion,</li>
+                <li>180-182 Regent Street London.</li>
+                <li></li>
+                <li>Telephone 0123-456-789</li>
+                <li>Email: support@yourwebsite.com</li>
+            </ul>
+
+        </div>
+        <div class="footer-banners">
+            <div class="banner-award-winner"> <p> <strong> AWARD WINNER </strong> <br> FASHION AWARD 2016</p> </div>
+            <div class="banner-social">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+    
+    <div class="bottom-bar">
+        <div class="bottom-bar-wrapper">
+            <div class="bottom-bar-left">
+                <i class="fa fa-copyright" aria-hidden="true"></i> 
+                     2016 Avenue fashion 
+                <i class="fa fa-trademark" aria-hidden="true"></i>
+            </div>
+            <div class="bottom-bar-right-1">Dev by Meggie & Google</div>
+            <div class="bottom-bar-right-2">Design by MeggieDesigns.com</div>
+                
+        </div>
+    </div>
+</footer>
+    
+</body>
+</html>
